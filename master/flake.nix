@@ -11,6 +11,7 @@
   inputs.src-optionsutils-master.ref   = "refs/heads/master";
   inputs.src-optionsutils-master.owner = "PMunch";
   inputs.src-optionsutils-master.repo  = "nim-optionsutils";
+  inputs.src-optionsutils-master.dir   = "";
   inputs.src-optionsutils-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
