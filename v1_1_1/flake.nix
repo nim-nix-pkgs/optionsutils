@@ -11,7 +11,6 @@
   inputs.src-optionsutils-v1_1_1.ref   = "refs/tags/v1.1.1";
   inputs.src-optionsutils-v1_1_1.owner = "PMunch";
   inputs.src-optionsutils-v1_1_1.repo  = "nim-optionsutils";
-  inputs.src-optionsutils-v1_1_1.dir   = "";
   inputs.src-optionsutils-v1_1_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
